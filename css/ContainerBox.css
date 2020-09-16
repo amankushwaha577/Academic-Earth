@@ -24,7 +24,7 @@ body {
 	margin: 0 auto;
 	padding: 12em 2em;
 	padding-left: 370px;
-	background: rgba(0,0,0,0.05);
+	background: aqua;
 }
 
 .container > header a {

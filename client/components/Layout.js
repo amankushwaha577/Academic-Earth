@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
     );
 
     const nav = () => (
-        <ul className="nav nav-tabs bg-primary">
+        <ul className="nav nav-tabs bg-primary fixed-top navbar-expand-sm">
             <li className="nav-item">
                 <Link href="/">
                     <a className="nav-link text-dark"><i class="fas fa-home"></i>Home</a>
@@ -78,6 +78,8 @@ const Layout = ({ children }) => {
                     </a>
                 </li>
             )}
+
+            
         </ul>
     );
 

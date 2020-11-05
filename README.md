@@ -12,8 +12,8 @@ Academic Earth believes that everyone has the right to a world-class education. 
 # Team Academic Earth
 | Name | Github Username |
 | ------ | ------ |
-| Aman Kushwaha | [https://github.com/amankushwaha577/] |
 | Ayush Gupta | [Bhaiya apni link dedo ] |
+| Aman Kushwaha | [https://github.com/amankushwaha577/] |
 | Satish Narayan  | [Bhaiya ap bhi link dedo whatysapp pe] |
  
 

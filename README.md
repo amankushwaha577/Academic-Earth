@@ -7,97 +7,58 @@ Academic Earth believes that everyone has the right to a world-class education. 
   - It makes possible a truly ambitious education system for a future learning society.
  
 
-#  Tech
-##### BackEnd Tech
+# Software Tech Specs
+### BackEnd Tech
 ```diff
 - React JS
 - Node JS
 - Next JS
 - Express JS
-- Angular
-- PHP
 ````
-##### Cloud Tech
+### Cloud Tech
 ```diff
-+ Amanzone AWS SES,IAM,S3 and EC2
++ Amazon AWS SES,IAM,S3 and EC2
 ```
 
-##### DataBase
- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Mongoose Cluster`
+### DataBase Tech
+ ```diff
+- Mongoo DB Cluster
+```
+ 
+### Front-End Tech
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `CSS3 and HTML5`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Bootstrap4`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
 
+# Online Reachability:
+Domain Will available very very soon..............
 
-* [AngularJS] 
-* [React JS]
-* [Node]
-* [Twitter Bootstrap]
-* [node.js] 
-* [Express]
-* [Gulp]
-* [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter
-* [jQuery] - duh
+### Offline Reachability ,Installation of Academic Earch
+1. Academic Earth requires [Node.js](https://nodejs.org/) v4+ to run online
+2. Or it Requires Netbeans/VS Code/Apache Net Beans as a Software Run.
 
-
-
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
-# Tech
-
-Dillinger uses a number of open source projects to work properly:
-
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter
-* [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-### Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
+Install the dependencies and devDependencies and start the client side.
 ```sh
-$ cd dillinger
-$ npm install -d
-$ node app
+$ cd client
+$ npm install -y
+$ npm run dev
 ```
 
-For production environments...
-
+Install the dependencies and devDependencies and start the Server side.
 ```sh
-$ npm install --production
-$ NODE_ENV=production node app
+$ cd server
+$ npm install -y
+$ npm start
 ```
 
-### Plugins
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
-
-| Plugin | README |
+# Team Academic Earth
+| Name | Github Username |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| Aman Kushwaha | [https://github.com/amankushwaha577/][PlDb] |
+| Ayush Gupta | [plugins/github/README.md][PlGh] |
+| Satish Narayan  | [plugins/googledrive/README.md][PlGd] |
+ 
 
 
 ### Development
@@ -195,4 +156,6 @@ MIT
    [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
    [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
    [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
    [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>

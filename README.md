@@ -8,14 +8,24 @@ Academic Earth believes that everyone has the right to a world-class education. 
  
 
 #  Tech
-#### BackEnd Tech
+##### BackEnd Tech
 ```diff
 - React JS
 - Node JS
 - Next JS
 - Express JS
 - Angular
+- PHP
 ````
+##### Cloud Tech
+```diff
++ Amanzone AWS SES,IAM,S3 and EC2
+```
+
+##### DataBase
+ ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Mongoose Cluster`
+
+
 * [AngularJS] 
 * [React JS]
 * [Node]

@@ -1,10 +1,11 @@
 # ``` Academic Earth ```
 Academic Earth believes that everyone has the right to a world-class education. We are building  a cloud based Web Application for online learners. 'E-Learning explores interactive technologies and communication systems to improve the learning experience.
-  - Many people face the problem when they want to learn something new or they have some skills which they want to share among people, then they can add their content/sources on our web application.
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Many people face the problem when they want to learn something new or they have some skills which they want to share among people, then they can add their content/sources on our web application.`
 
-  -  In our application many users provide various sources in one place so that learners need not to worry about where to gain new skills. They can choose one of the best sources among these and start learning.
+  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `In our application many users provide various sources in one place so that learners need not to worry about where to gain new skills. They can choose one of the best sources among these and start learning.`
 
-  - It makes possible a truly ambitious education system for a future learning society.
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `It makes possible a truly ambitious education system for a future learning society.`
+
  
 # Team Academic Earth
 | Name | Github Username |
@@ -60,4 +61,4 @@ $ npm start
 
 License
 ----
-@Copyright Academic-Earth pvt-Ltd 2020
+@Copyright Academic-Earth  2020

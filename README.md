@@ -1,11 +1,66 @@
-# Academic Earth
-A web-based tutorials/courses finder and sharing application.
-
-# Motivation
+# ``` Academic Earth ```
 Academic Earth believes that everyone has the right to a world-class education. We are building  a cloud based Web Application for online learners. 'E-Learning explores interactive technologies and communication systems to improve the learning experience.
-Users of our application could be anyone who wants to find a course, articles etc. from different online course providers. They will be able to like and share the course, they can add sources to our web application
+   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Many people face the problem when they want to learn something new or they have some skills which they want to share among people, then they can add their content/sources on our web application.`
 
-# Amazon AWS Services Used in this Project:
-#1. Amazon Simple Email Service (SES) is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application. You can configure Amazon SES quickly to support several email use cases, including transactional, marketing, or mass email communications. With Amazon SES, you can send email securely, globally, and at scale
-2.Amazon S3: Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. Amazon S3 provides easy-to-use management features so you can organize your data and configure finely-tuned access controls to meet your specific business,. Amazon S3 is designed for 99.999999999% (11 9's) of durability, and stores data for millions of applications for companies all around the world.
+  -  ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `In our application many users provide various sources in one place so that learners need not to worry about where to gain new skills. They can choose one of the best sources among these and start learning.`
 
+  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `It makes possible a truly ambitious education system for a future learning society.`
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Users of our application could be anyone who wants to find a course, articles etc. from different online course providers. They will be able to like and share the course, they can add sources to our web application`
+
+
+ 
+# Team Academic Earth
+| Name | Github Username |
+| ------ | ------ |
+| Ayush Gupta | [Bhaiya apni link dedo ] |
+| Aman Kushwaha | [https://github.com/amankushwaha577/] |
+| Satish Narayan  | [Bhaiya ap bhi link dedo whatysapp pe] |
+ 
+
+# Software Tech Specs
+### BackEnd Tech
+```diff
+- React JS
+- Node JS
+- Next JS
+- Express JS
+````
+### Cloud Tech
+```diff
++ Amazon AWS SES,IAM,S3 and EC2
+```
+
+### DataBase Tech
+ ```diff
+- Mongoo DB Cluster
+```
+ 
+### Front-End Tech
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `CSS3 and HTML5`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Bootstrap4`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Java Script`
+
+# Online Reachability:
+Domain Will available very very soon..............
+
+# Offline Reachability ,Installation of Academic Earch
+1. Academic Earth requires [Node.js](https://nodejs.org/) v4+ to run online
+2. Or it Requires Netbeans/VS Code/Apache Net Beans as a Software Run.
+
+Install the dependencies and devDependencies and start the client side.
+```sh
+$ cd client
+$ npm install -y
+$ npm run dev
+```
+
+Install the dependencies and devDependencies and start the Server side.
+```sh
+$ cd server
+$ npm install -y
+$ npm start
+```
+
+License
+----
+@Copyright Academic-Earth  2020

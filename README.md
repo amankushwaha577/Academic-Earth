@@ -40,7 +40,7 @@ Academic Earth believes that everyone has the right to a world-class education. 
 # Online Reachability:
 Domain Will available very very soon..............
 
-### Offline Reachability ,Installation of Academic Earch
+# Offline Reachability ,Installation of Academic Earch
 1. Academic Earth requires [Node.js](https://nodejs.org/) v4+ to run online
 2. Or it Requires Netbeans/VS Code/Apache Net Beans as a Software Run.
 

@@ -1,11 +1,11 @@
 const { check } = require('express-validator');
 
 exports.linkCreateValidator = [
-   
-    check('url')
+    check('title')
         .not()
         .isEmpty()
-        .withMessage('URL is required'),
+        .withMessage('Title is required'),
+    
     check('categories')
         .not()
         .isEmpty()

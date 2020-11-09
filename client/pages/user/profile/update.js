@@ -142,3 +142,17 @@ const Profile = ({ user, token }) => {
         </form>
     );
 
+    return (
+        <Layout>
+            <div className="col-md-6 offset-md-3">
+                <h1>Update Profile</h1>
+                <br />
+                {success && showSuccessMessage(success)}
+                {error && showErrorMessage(error)}
+                {updateForm()}
+            </div>
+        </Layout>
+    );
+};
+
+export default withUser(Profile);

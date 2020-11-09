@@ -50,7 +50,20 @@ const userSchema = new mongoose.Schema(
     { timestamps: true }
 );
 
-
+// virtual fields
+userSchema
+    .virtual('password')
+    .set(function(password) {
+        // create temp variable called _password
+        this._password = password;
+        // generate salt
+        this.salt = this.makeSalt();
+        // encrypt password
+        this.hashed_password = this.encryptPassword(password);
+    })
+    .get(function() {
+        return this._password;
+    });
 
 // methods > authenticate, encryptPassword, makeSalt
 userSchema.methods = {

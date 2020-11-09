@@ -9,11 +9,11 @@ exports.linkCreateValidator = [
         .not()
         .isEmpty()
         .withMessage('URL is required'),
-
-    check('type')
+    check('categories')
         .not()
         .isEmpty()
-        .withMessage('Pick a type free/paid'),
+        .withMessage('Pick a category'),
+  
     check('medium')
         .not()
         .isEmpty()

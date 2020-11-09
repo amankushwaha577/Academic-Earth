@@ -145,16 +145,7 @@ const Register = () => {
                     required
                 />
             </div>
-            <div className="form-group">
-                <input
-                    value={password}
-                    onChange={handleChange('password')}
-                    type="password"
-                    className="form-control"
-                    placeholder="Type your password"
-                    required
-                />
-            </div>
+         
 
             <div className="form-group">
                 <label className="text-muted ml-4">Category</label>

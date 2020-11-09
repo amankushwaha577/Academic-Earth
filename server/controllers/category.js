@@ -111,12 +111,7 @@ exports.update = (req, res) => {
             });
         }
         console.log('UPDATED', updated);
-        if (image) {
-            // remove the existing image from s3 before uploading new/updated one
-            const deleteParams = {
-                Bucket: 'academicearth',
-                Key: `${updated.image.key}`
-            };
+        
 
             s3.deleteObject(deleteParams, function(err, data) {
                 if (err) console.log('S3 DELETE ERROR DUING UPDATE', err);

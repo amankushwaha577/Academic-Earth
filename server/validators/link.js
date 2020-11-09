@@ -13,7 +13,10 @@ exports.linkCreateValidator = [
         .not()
         .isEmpty()
         .withMessage('Pick a category'),
-  
+    check('type')
+        .not()
+        .isEmpty()
+        .withMessage('Pick a type free/paid'),
     check('medium')
         .not()
         .isEmpty()

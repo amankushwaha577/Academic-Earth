@@ -7,7 +7,14 @@ import { showSuccessMessage, showErrorMessage } from '../helpers/alerts';
 import { API } from '../config';
 import { authenticate, isAuth } from '../helpers/auth';
 
-
+const Login = () => {
+    const [state, setState] = useState({
+        email: 'reactnodeaws@gmail.com',
+        password: 'rrrrrr',
+        error: '',
+        success: '',
+        buttonText: 'Login'
+    });
 
     useEffect(() => {
         isAuth() && Router.push('/');

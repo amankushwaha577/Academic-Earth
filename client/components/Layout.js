@@ -19,22 +19,20 @@ const Layout = ({ children }) => {
                 crossOrigin="anonymous"
             />
             <link rel="stylesheet" href="/static/css/styles.css" />
-            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         </React.Fragment>
     );
 
     const nav = () => (
-        <ul className="nav nav-tabs text-primary bg-dark">
+        <ul className="nav nav-tabs bg-warning">
             <li className="nav-item">
                 <Link href="/">
-                    <a className="nav-link"><i class="fas fa-home"></i>Home</a>
+                    <a className="nav-link text-dark">Home</a>
                 </Link>
             </li>
 
             <li className="nav-item">
                 <Link href="/user/link/create">
-                    <a className="nav-link btn btn-success" style={{ borderRadius: '0px' }}>
-                    <i class="fas fa-upload"></i>
+                    <a className="nav-link text-dark btn btn-success" style={{ borderRadius: '0px' }}>
                         Submit a link
                     </a>
                 </Link>
@@ -44,12 +42,12 @@ const Layout = ({ children }) => {
                 <React.Fragment>
                     <li className="nav-item">
                         <Link href="/login">
-                            <a className="nav-link"><i class="fas fa-sign-in-alt"></i>Login</a>
+                            <a className="nav-link text-dark">Login</a>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link href="/register">
-                            <a className="nav-link"><i class="fas fa-user-plus"></i>Register</a>
+                            <a className="nav-link text-dark">Register</a>
                         </Link>
                     </li>
                 </React.Fragment>
@@ -58,7 +56,7 @@ const Layout = ({ children }) => {
             {isAuth() && isAuth().role === 'admin' && (
                 <li className="nav-item ml-auto">
                     <Link href="/admin">
-                        <a className="nav-link"><i class="fas fa-user"></i>{isAuth().name}</a>
+                        <a className="nav-link text-dark">{isAuth().name}</a>
                     </Link>
                 </li>
             )}
@@ -66,20 +64,18 @@ const Layout = ({ children }) => {
             {isAuth() && isAuth().role === 'subscriber' && (
                 <li className="nav-item ml-auto">
                     <Link href="/user">
-                        <a className="nav-link"><i class="fas fa-user"></i>{isAuth().name}</a>
+                        <a className="nav-link text-dark">{isAuth().name}</a>
                     </Link>
                 </li>
             )}
 
             {isAuth() && (
                 <li className="nav-item">
-                    <a onClick={logout} className="nav-link">
-                    <i class="fas fa-sign-out-alt"></i>Logout
+                    <a onClick={logout} className="nav-link text-dark">
+                        Logout
                     </a>
                 </li>
             )}
-
-            
         </ul>
     );
 

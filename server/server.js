@@ -25,9 +25,7 @@ const categoryRoutes = require('./routes/category');
 const linkRoutes = require('./routes/link');
 
 // app middlewares
-app.use(morgan('dev'));
-// app.use(bodyParser.json());
-app.use(bodyParser.json({ limit: '5mb', type: 'application/json' }));
+
 // app.use(cors());
 app.use(cors({ origin: process.env.CLIENT_URL }));
 

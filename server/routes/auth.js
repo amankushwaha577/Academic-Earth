@@ -11,14 +11,6 @@ const {
 const { runValidation } = require('../validators');
 
 // import from controllers
-const {
-    register,
-    registerActivate,
-    login,
-    requireSignin,
-    forgotPassword,
-    resetPassword
-} = require('../controllers/auth');
 
 router.post('/register', userRegisterValidator, runValidation, register);
 router.post('/register/activate', registerActivate);

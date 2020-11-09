@@ -16,6 +16,7 @@ exports.userRegisterValidator = [
         .withMessage('Pick at aleast one category')
 ];
 
+exports.userLoginValidator = [
     check('email')
         .isEmail()
         .withMessage('Must be a valid email address'),
@@ -24,11 +25,7 @@ exports.userRegisterValidator = [
         .withMessage('Password must be at least 6 characters long')
 ];
 
-exports.forgotPasswordValidator = [
-    check('email')
-        .isEmail()
-        .withMessage('Must be a valid email address')
-];
+
 
 exports.resetPasswordValidator = [
     check('newPassword')

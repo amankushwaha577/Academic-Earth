@@ -160,7 +160,12 @@ exports.update = (req, res) => {
 exports.remove = (req, res) => {
     const { slug } = req.params;
 
-    
+    Category.findOneAndRemove({ slug }).exec((err, data) => {
+        if (err) {
+            return res.status(400).json({
+                error: 'Could not delete category'
+            });
+        }
         // remove the existing image from s3 before uploading new/updated one
         const deleteParams = {
             Bucket: 'academicearth',

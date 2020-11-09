@@ -9,7 +9,7 @@ Academic Earth believes that everyone has the right to a world-class education. 
 
 
  
-# Team Academic Earth
+# Academic Earth 
 | Name | Github Username |
 | ------ | ------ |
 | Ayush Gupta | [link ] |

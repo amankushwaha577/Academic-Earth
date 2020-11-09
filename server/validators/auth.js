@@ -16,7 +16,6 @@ exports.userRegisterValidator = [
         .withMessage('Pick at aleast one category')
 ];
 
-exports.userLoginValidator = [
     check('email')
         .isEmail()
         .withMessage('Must be a valid email address'),

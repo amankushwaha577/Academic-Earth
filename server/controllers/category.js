@@ -96,9 +96,7 @@ exports.read = (req, res) => {
         });
 };
 
-exports.update = (req, res) => {
-    const { slug } = req.params;
-    const { name, image, content } = req.body;
+
 
     // image data
     const base64Data = new Buffer.from(image.replace(/^data:image\/\w+;base64,/, ''), 'base64');

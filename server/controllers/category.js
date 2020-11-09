@@ -124,14 +124,7 @@ exports.update = (req, res) => {
             });
 
             // handle upload image
-            const params = {
-                Bucket: 'academicearth',
-                Key: `category/${uuidv4()}.${type}`,
-                Body: base64Data,
-                ACL: 'public-read',
-                ContentEncoding: 'base64',
-                ContentType: `image/${type}`
-            };
+           
 
             s3.upload(params, (err, data) => {
                 if (err) {

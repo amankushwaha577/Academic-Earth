@@ -6,7 +6,7 @@ Academic Earth believes that everyone has the right to a world-class education. 
 
   - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `It makes possible a truly ambitious education system for a future learning society.`
   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Users of our application could be anyone who wants to find a course, articles etc. from different online course providers. They will be able to like and share the course, they can add sources to our web application`
-
+ 
  
  
 # Academic Earth 
